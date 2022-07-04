@@ -136,6 +136,9 @@ namespace RobMath
             return d;
         }
         
+        /// <summary>
+        /// Вывод вектора.
+        /// </summary>
         public void PrintPoint()
         {
             double[] vec = new double[vector.Length];
@@ -147,4 +150,6 @@ namespace RobMath
             Console.WriteLine();
         }
     }
+
+  
 }
